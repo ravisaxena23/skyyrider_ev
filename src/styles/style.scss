@@ -1,0 +1,348 @@
+.radioBtn{
+    font-size: 16px !important;
+    margin: 15px !important;
+}
+
+.question_correct_label{
+    margin-left: 20px !important;
+    padding-top: 50px !important;
+}
+
+.add_option_btn{
+    margin-top: 10px !important;
+}
+
+.textField{
+    width: 250px !important;
+}
+
+.addrefresh_cont{
+    float:right;
+    background-color:#e6e6e6 !important; 
+    border-radius: 50px;
+    text-align: center;
+}
+.switch{
+    padding: 0px !important;
+}
+
+.refresh_btn{
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+}
+
+.switch{
+    font-size: 40px !important;
+    padding: 0px !important;
+    margin-top: 2px !important;
+}
+
+.switch_on{
+    font-size: 40px !important;
+    color: #99cc00 !important;
+    padding: 0px !important;
+    margin-top: 2px !important;
+}
+
+.view_text{ 
+    margin-top: 12px !important;
+}
+.edit_icon{
+    font-size: 20px !important;
+    padding: 0px !important;
+    margin-top: 0px !important;
+}
+
+.domain_card{
+    width: 98% !important;
+    margin-top: 20px !important;
+    text-align: center;
+    height: 230px !important;
+    // background-image: url("../img/code.jpg");
+    background-size: cover;
+}
+
+.domain_card_exc{
+    width: 98% !important;
+    margin-top: 20px !important;
+    padding: 0px !important;
+}
+
+.domain_text{
+    background-color: white;
+    padding: 10px;
+    height: 150px;
+    margin-top:20px;
+}
+
+.domain_avatar{
+    height: 100px !important;
+    width: 100px !important;
+    margin: auto;
+    margin-top:20px;
+    // border: 3px solid #e68a00;
+    // padding: 8px;
+}
+
+.domain_avatar_instruction{
+    height: 60px !important;
+    width: 60px !important;
+    margin: auto;
+    margin-top:20px;
+}
+
+.domain_cont{
+    padding: 20px;
+}
+
+.domain_avatar_small{
+    height: 40px !important;
+    width: 40px !important;
+    padding: 0px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.domain_assessment_iconbtn{
+    margin-top: 15px !important;
+}
+
+
+.difficulty_indicator{
+    font-size: 12px !important;
+    margin-top: 30px !important;
+    margin-left: 10px !important;
+}
+
+.Easy{
+    color: #00cc00 !important;
+}
+
+.Medium{
+    color: #e68a00 !important;
+}
+
+.Difficult{
+    color: #ff3300 !important;
+}
+
+.forum_checkbox{
+    padding: 0px !important;
+    margin-top: -20px !important;
+    margin-left: 10px !important;
+}
+
+.login_card{
+  margin-top: 150px !important;
+  margin-bottom: 11px !important;
+  text-align: center !important;
+  padding-top: 50px !important;
+  padding-right: 4% !important;
+  padding-left: 4% !important;
+  padding-bottom: 50px !important;
+}
+
+.login-background{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/nextstacks.appspot.com/o/login_icons%2FBackground.jpg?alt=media&token=4a940951-c1ef-40d7-a92a-2b9baf4edacf");
+  height: 105vh !important;
+}
+
+.login_heading{
+  margin-top: 10px !important;
+  font-size: 100% !important;
+  text-align: center !important;
+}
+
+.login_term{
+  color: grey !important;
+  font-size: 90% !important;
+  margin-top: 20px !important;
+}
+
+.forum_content_card{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.drawer_img{
+    width: 130px !important;
+    height: 130px !important;
+    margin: auto !important;
+}
+
+.forum_send_btn{
+    position: relative;
+    top: -17px !important;
+}
+
+.domain_card:hover{
+    background-color: #f2f2f2 !important;
+}
+
+.forum_card:hover{
+    background-color: #f2f2f2 !important;
+}
+
+.dashboard_content_container{
+    background-color: #f2f2f2 !important;
+    width: 95% !important;
+    padding: 20px !important;
+    border-radius: 20px !important;
+    margin-top: 20px !important;
+}
+
+.page_heading{
+    font-size: 17px !important;
+    color: #4d4d4d !important;
+}
+
+.no_forum_text{
+    color: #595959;
+    font-size: 17px !important;
+    text-align: center;
+}
+
+.loader_em{
+    margin-top: 50px !important;
+}
+
+.profile-name{
+    text-align: center;
+}
+
+.domain_search{
+    position: relative !important;
+    top: -100px !important;
+    width: 300px !important;
+    height: 45px !important;
+    margin: auto !important;
+    padding: 12px !important;
+    background-color: white !important;
+    border-radius: 50px !important;
+}
+
+.lesson_code{
+    font-size: 14px !important;
+    // border-radius: 50px !important;
+    // padding: 20px !important;
+    width: 95% !important;
+
+}
+
+.code_container{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-size: 14px !important;
+}
+
+.drawer_img_closed{
+    width: 40px !important;
+    height: 40px !important;
+    margin: auto !important;
+    margin-right: 10px !important;
+}
+
+.user_dashboard_tabs{
+    width: 100% !important;
+    margin: auto !important;
+    margin-top: 50px !important;
+}
+
+.user_dashboard_tab_content{
+    width: 97% !important;
+    margin: auto !important;
+}
+
+.progress_bar{
+    width: 200px !important;
+}
+
+.progress_title{
+    color: #ff0066;
+    text-align: center !important;
+    font-size: 22px !important;
+    font-weight: 400;
+}
+
+//style of domain info
+.di_domain_info{
+    margin-top:90px;
+    margin-bottom:90px;
+}
+
+.pricing_card{
+    text-align: center;
+    padding:40px !important;
+}
+
+.di_price_text{
+    color: green;
+    padding: 10px;
+}
+
+.di_offers{
+    margin-top: 20px;
+}
+
+.assessment_score{
+    padding: 60px;
+    border-radius: 50%;
+    border: 3px solid #ff0066;
+    width:200px;
+    height:200px;
+    font-size: 50px;
+    margin:auto;
+    margin-top:50px;
+}
+
+.assessment_list{
+    height: 510px;
+    overflow: scroll;
+}
+
+.user_domain_head{
+    padding: 10px !important;
+    padding-top: 0px !important
+}
+
+.nav_lesson_box{
+    background-color: orange;
+    display: inline-block;
+    // padding:10px;
+    color:#ffffff !important;
+    border-radius: 50px;
+}
+
+.students_avatars{
+    display: inline-block !important;
+}
+
+// .nav_lesson_box:hover{
+//     background-color: rgb(248, 187, 72);
+// }
+
+// .nav_btn_grid:hover{
+//     color: grey;
+// }
+
+.nav_lesson_text{
+    display: inline-block;
+    padding:15px;
+}
+
+.nav_btn_grid{
+    margin-top:10px !important;
+    margin-bottom:10px !important;
+    // border: 1px solid silver;
+}
+//below webkit shows scroll bar everywhere
+// ::-webkit-scrollbar {
+//     -webkit-appearance: none;
+//     width: 10px;
+// }
+  
+// ::-webkit-scrollbar-thumb {
+//     border-radius: 5px;
+//     background-color: rgba(0,0,0,.5);
+//     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+// }
