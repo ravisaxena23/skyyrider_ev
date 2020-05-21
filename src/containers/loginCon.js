@@ -4,13 +4,13 @@ import { connect } from "react-redux";
 import Login from "../components/login";
 
 import { 
-  fbSignin, 
-  googleSignin, 
-  closeSnackbar,
-  setLogin,
-  set_home,
-  // getGeoInfo
+  user_login,
+  setEmail,
+  setPwd,
 } from "../actions/loginActions";
+import {
+  close_snack_bar
+} from "../actions/snackbar/snackbar_action";
 
 export class Controller extends Component {
 
@@ -23,26 +23,24 @@ export class Controller extends Component {
 
 export const mapStateToProps = store => {
   return {
-    login: store.login
+    login: store.login,
+    snackbar: store.snackbar,
   };
 };
 
 export const mapDispatchToProps = dispatch => {
     return {
-      closeSnackbar: () => {
-        dispatch(closeSnackbar());
+      close_snack_bar: () => {
+        dispatch(close_snack_bar());
       },
-      googleSignin: (cityname,countryregion) => {
-        dispatch(googleSignin(cityname,countryregion));
+      user_login: (login) => {
+        dispatch(user_login(login));
       },
-      fbSignin: (cityname,countryregion) => {
-        dispatch(fbSignin(cityname,countryregion));
+      setEmail:(payload)=>{
+        dispatch(setEmail(payload))
       },
-      setLogin: (type, email, user_token, profile_img) => {
-        dispatch(setLogin(type, email, user_token, profile_img));
-      },
-      set_home:()=>{
-        dispatch(set_home())
+      setPwd: (payload) => {
+        dispatch(setPwd(payload))
       },
       // getGeoInfo: () => {
       //   dispatch(getGeoInfo());

@@ -3,24 +3,21 @@ import {
   BrowserRouter as Router,
   Route
 } from "react-router-dom";
-
+import Home from "../home";
+import Controller from "../../containers/router/controller_cont";
+import About from "../subpage/about";
 import Login from "../../containers/loginCon";
-import PropTypes from "prop-types";
+import Admin from "../../containers/pages/adminCont";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
   root: {
-    display: "flex",
-  },
-  content: {
-    flexGrow: 1,
-    padding: theme.spacing(1) * 3,
-  },
-  content2: {
-    flexGrow: 1,
-  },
-
-});
+    width:'100%',
+    height:'100%',
+    padding:0,
+    margin:0,
+  }
+})
 
 class Routes extends Component {
 
@@ -30,31 +27,24 @@ class Routes extends Component {
 
     body =
       login.isHome ?
-        <div className={classes.root}>
-          <main className={classes.content2}>
-            <Route exact path="/" component={Login} />
-          </main>
+        <div>
+        <Route exact path="/" component={Login} />
+        <Route path="/" component={Controller} />
         </div>
         :
         <div className={classes.root}>
-          <main className={classes.content}
-            style={{ marginTop: 50 }}
-          >
-            <Route exact path="/" component={Login} />
-          </main>
+            <Route exact path="/" component={Admin} />
         </div>
       ;
-
     return (
+      <div>
       <Router>
         {body}
       </Router>
+      </div>
     );
   }
 }
 
-Routes.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
 
 export default withStyles(styles)(Routes);

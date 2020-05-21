@@ -23,12 +23,8 @@ export default class LG extends React.Component {
     return (
       <IconButton color="inherit"
         onClick={() => {
-          localStorage.removeItem("name");
+          localStorage.removeItem("user_id");
           localStorage.removeItem("email");
-          localStorage.removeItem("profile_img");
-          localStorage.removeItem("user_token");
-          localStorage.removeItem("type");
-          localStorage.removeItem("uuid");
           this.props.onLogout()
         }}>
         <Icon style={{ color: "#3f51b5" }}>power_settings_new</Icon>

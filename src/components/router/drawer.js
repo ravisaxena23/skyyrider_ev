@@ -207,61 +207,17 @@ function MiniDrawer(props) {
         })}
       >
         <Toolbar>
-          {props.type === "S" ? "" :
-            <IconButton
-              color="inherit"
-              aria-label="Open drawer"
-              onClick={handleDrawerOpen}
-              edge="start"
-              className={clsx(classes.menuButton, {
-                [classes.hide]: open,
-              })}
-            >
-              <Icon style={{ color: "#3f51b5" }} >dehaze</Icon>
-            </IconButton>
-          }
           <Link to="/">
           <img src={"https://firebasestorage.googleapis.com/v0/b/nextstacks.appspot.com/o/NextStack%20Logo.png?alt=media&token=6c4ba45d-05a9-4e1f-a7dc-9ee86006218c"} alt="no_img" height="20" />
           </Link>
           <span style={{ color: "#b30047", marginLeft: 7 }}>alpha</span>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            {props.type === "S" ?
-              <Avatar alt={localStorage.getItem("name")} src={localStorage.getItem("profile_img")} className="drawer_img_closed" >
-                {localStorage.getItem("name") == null ? "" : localStorage.getItem("name").substring(0, 1).toUpperCase()}
-              </Avatar>
-              : ""}
             <LG_Cont />
 
           </div>
         </Toolbar>
       </AppBar>
-      {props.type === "S" ? "" :
-        <Drawer
-          variant="permanent"
-          className={clsx(classes.drawer, {
-            [classes.drawerOpen]: open,
-            [classes.drawerClose]: !open,
-          })}
-          classes={{
-            paper: clsx({
-              [classes.drawerOpen]: open,
-              [classes.drawerClose]: !open,
-            }),
-          }}
-          open={open}
-        >
-          <div className={classes.toolbar}>
-            <IconButton onClick={handleDrawerClose}>
-              <Icon style={{ color: "#3f51b5" }} >keyboard_arrow_left</Icon>
-            </IconButton>
-          </div>
-          <Divider />
-          <List>
-            {sideBar(props.type, open)}
-          </List>
-        </Drawer>
-      }
     </div>
   );
 }
