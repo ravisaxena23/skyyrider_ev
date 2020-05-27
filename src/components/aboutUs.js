@@ -6,7 +6,6 @@ import "../styles/style.scss";
 import {
     Grid,
     Avatar,
-    Divider,
     CardContent,
     Typography
 } from "@material-ui/core";
@@ -35,7 +34,7 @@ class AboutUs extends React.Component {
                 <Header />
                 <Slider />
                 <Grid container justify="center" style={{ backgroundColor: '#E6EDF4' }}>
-                    <Grid item xs={10} md={4}>
+                    <Grid item xs={12} md={4}>
                         <Card style={card}>
                             <CardHeader color="warning" stats icon>
                                 <CardIcon color="rose">
@@ -54,7 +53,7 @@ class AboutUs extends React.Component {
                         </Card>
                     </Grid>
                     <Grid item md={2} />
-                    <Grid item xs={10} md={4}>
+                    <Grid item xs={12} md={4}>
                         <Card style={card}>
                             <CardHeader color="warning" stats icon>
                                 <CardIcon color="rose">

@@ -6,7 +6,6 @@ import "../styles/style.scss";
 import {
     Grid,
     Avatar,
-    Divider
 } from "@material-ui/core";
 import { Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";

@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import withStyles from "@material-ui/core/styles/withStyles";
 import { styles } from "../../styles/style";
 import "../../styles/style.scss";
+import CardHeader from "../cards/CardHeader.js";
+import CardIcon from "../cards/CardIcon.js";
+import Cards from "../cards/Card";
 import {
     Grid,
     CardContent,
@@ -33,6 +36,12 @@ const card3 = {
     marginTop: 50,
     marginBottom: 50,
     backgroundColor: 'black'
+};
+const card4 = {
+    borderRadius: "20px",
+    backgroundColor: "#ffffff",
+    marginTop: 50,
+    height: 250
 };
 class About extends Component {
     render() {
@@ -116,7 +125,43 @@ class About extends Component {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12} md={6}>
+                <Grid item xs={12} md={5}>
+                    <Cards style={card4}>
+                        <CardHeader color="warning" stats icon>
+                            <CardIcon color="rose">
+                                <h3>
+                                    VISION
+                                    </h3>
+                            </CardIcon>
+                        </CardHeader>
+                        <Typography style={{ paddingLeft: 35, paddingTop: 35 }}>
+                            • To be a trendsetter in the heavy & commercial services industry.<br />
+                                • To provide advanced repairs & maintenance cost effectively.<br />
+                                • To make our customers feel comfortable and pleased with their service experience.<br />
+                        </Typography>
+                        <CardContent>
+                        </CardContent>
+                    </Cards>
+                </Grid>
+                <Grid item md={1} />
+                <Grid item xs={12} md={5}>
+                    <Cards style={card4}>
+                        <CardHeader color="warning" stats icon>
+                            <CardIcon color="rose">
+                                <h3>
+                                    MISSION
+                                    </h3>
+                            </CardIcon>
+                        </CardHeader>
+                        <Typography style={{ paddingLeft: 35, paddingTop: 35 }}>
+                            • To create integrated service centres across India.<br />
+                                • To establish and create industry standards in terms of infrastructure, client service & vehicle maintenance services in an efficient and cost-effective manner.<br />
+                        </Typography>
+                        <CardContent>
+                        </CardContent>
+                    </Cards>
+                </Grid>
+                <Grid item xs={12} md={8}>
                     <Card style={card3}>
                         <CardContent style={{ height: '100%' }}>
                             <Grid container justify='center'>

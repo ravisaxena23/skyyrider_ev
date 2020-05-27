@@ -15,9 +15,9 @@ import Header from "./subpage/header";
 import CardHeader from "./cards/CardHeader.js";
 import CardIcon from "./cards/CardIcon.js";
 import Card from "./cards/Card";
-import Slider from "./subpage/carousel";
-import Service from "./subpage/services";
-import About from "./subpage/about";
+// import Slider from "./subpage/carousel";
+// import Service from "./subpage/services";
+// import About from "./subpage/about";
 const card = {
     borderRadius: "20px",
     backgroundColor: "#ffffff",

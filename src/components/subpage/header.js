@@ -71,25 +71,30 @@ class Header extends Component {
                             </ExpansionPanelSummary>
                             <ExpansionPanelDetails style={{ padding: 0 }}>
                                 <List component="nav">
-                                    <ListItem button>
+                                    <ListItem button style={{width:'100%'}}>
                                         <Link to="/" className="link">
                                             <Button className="button" >Home</Button>
                                         </Link>
                                     </ListItem >
-                                    <ListItem button>
-                                        <Link to="/" className="link">
-                                            <Button className="button" >Feature</Button>
+                                    <ListItem button style={{ width: '100%' }}>
+                                        <Link to="/about" className="link">
+                                            <Button className="button" >ABOUT US</Button>
                                         </Link>
                                     </ListItem >
-                                    <ListItem button>
-                                        <Link to="/" className="link">
-                                            <Button className="button" >About</Button>
+                                    <ListItem button style={{ width: '100%' }}>
+                                        <Link to="/services" className="link">
+                                            <Button className="button" >SERVICES</Button>
                                         </Link>
                                     </ListItem >
 
-                                    <ListItem button>
-                                        <Link to="/" className="link">
-                                            <Button className="button" >Contact</Button>
+                                    <ListItem button style={{ width: '100%' }}>
+                                        <Link to="/events" className="link">
+                                            <Button className="button" >NEWS&EVENTS</Button>
+                                        </Link>
+                                    </ListItem >
+                                    <ListItem button style={{ width: '100%' }}>
+                                        <Link to="/contact" className="link">
+                                            <Button className="button" >CONTACT US</Button>
                                         </Link>
                                     </ListItem >
                                 </List>

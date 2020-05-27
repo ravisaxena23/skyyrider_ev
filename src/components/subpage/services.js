@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const card = {
     borderRadius: "10px",
     // backgroundColor: "#1C2833",
-    margin:15,
+    margin: 15,
     justify: "center",
     height: 300
 };
@@ -26,7 +26,9 @@ class Services extends React.Component {
                     <Card className="homecard1" style={card}>
                         <CardContent style={{ height: '100%' }}>
                             <h2 style={{ color: 'black', paddingTop: '15%', paddingLeft: '10%' }}> VEHICLE CLEANING CHECKUP</h2>
-                            <b><p style={{ color: 'Blue', textAlign: 'center', paddingTop: '7%', fontSize: 20 }}>View Details</p></b>
+                            <Link to="services">
+                                <b><p style={{ color: 'Blue', textAlign: 'center', paddingTop: '7%', fontSize: 20 }}>View Details</p></b>
+                            </Link>
                         </CardContent>
                     </Card>
                 </Grid>
@@ -34,7 +36,9 @@ class Services extends React.Component {
                     <Card className="homecard2" style={card}>
                         <CardContent style={{ height: '100%' }}>
                             <h2 style={{ color: 'black', paddingTop: '15%', paddingLeft: '10%' }}> FLEET Maintenance Checklist</h2>
-                            <b><p style={{ color: 'Blue', textAlign: 'center', paddingTop: '7%', fontSize: 20 }}>View Details</p></b>
+                            <Link to="services">
+                                <b><p style={{ color: 'Blue', textAlign: 'center', paddingTop: '7%', fontSize: 20 }}>View Details</p></b>
+                            </Link>
                         </CardContent>
                     </Card>
                 </Grid>

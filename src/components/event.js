@@ -5,15 +5,13 @@ import { styles } from "../styles/style";
 import "../styles/style.scss";
 import {
     Grid,
-    Avatar,
-    Divider
 } from "@material-ui/core";
-import { Row, Col } from "reactstrap";
-import { Link } from "react-router-dom";
+// import { Row, Col } from "reactstrap";
+// import { Link } from "react-router-dom";
 import Header from "./subpage/header";
-import Slider from "./subpage/carousel";
-import Services from "./subpage/services";
-import About from "./subpage/about";
+// import Slider from "./subpage/carousel";
+// import Services from "./subpage/services";
+// import About from "./subpage/about";
 class Events extends React.Component {
     componentDidMount() {
         this.props.view_details();
