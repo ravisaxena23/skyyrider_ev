@@ -24,7 +24,7 @@ class Header extends Component {
         return (
             <Grid container>
                 <AppBar position="static" color="default" style={{ backgroundColor: 'white' }}>
-                    <Hidden only={["xs", "sm"]}>
+                    {/* <Hidden only={["xs", "sm"]}> */}
                         <Toolbar>
                             <Typography variant="h6" color="primary" style={{ flex: 1 }}>
                                 <img
@@ -53,8 +53,8 @@ class Header extends Component {
                             </Link>
                         </Toolbar>
 
-                    </Hidden>
-                    <Hidden only={["xl", "md", "lg"]}>
+                    {/* </Hidden> */}
+                    {/* <Hidden only={["xl", "md", "lg"]}>
                         <ExpansionPanel className="appbarmenu">
                             <ExpansionPanelSummary
                                 expandIcon={<Menu />}
@@ -100,7 +100,7 @@ class Header extends Component {
                                 </List>
                             </ExpansionPanelDetails>
                         </ExpansionPanel>
-                    </Hidden>
+                    </Hidden> */}
                 </AppBar>
             </Grid>
         );

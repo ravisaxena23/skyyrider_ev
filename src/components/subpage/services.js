@@ -25,10 +25,8 @@ class Services extends React.Component {
                 <Grid item xs={12} lg={4} style={{ padding: '1%' }}>
                     <Card className="homecard1" style={card}>
                         <CardContent style={{ height: '100%' }}>
-                            <h2 style={{ color: 'black', paddingTop: '15%', paddingLeft: '10%' }}> VEHICLE CLEANING CHECKUP</h2>
-                            <Link to="services">
-                                <b><p style={{ color: 'Blue', textAlign: 'center', paddingTop: '7%', fontSize: 20 }}>View Details</p></b>
-                            </Link>
+                            <h2 style={{ color: 'black', paddingTop: '15%', paddingLeft: '10%' }}> Vehicle Cleaning Checkup</h2>
+                            <Link to="services"><b><p style={{ color: 'Blue', textAlign: 'center', paddingTop: '7%', fontSize: 20 }}>View Details</p></b></Link>
                         </CardContent>
                     </Card>
                 </Grid>
@@ -36,9 +34,7 @@ class Services extends React.Component {
                     <Card className="homecard2" style={card}>
                         <CardContent style={{ height: '100%' }}>
                             <h2 style={{ color: 'black', paddingTop: '15%', paddingLeft: '10%' }}> FLEET Maintenance Checklist</h2>
-                            <Link to="services">
-                                <b><p style={{ color: 'Blue', textAlign: 'center', paddingTop: '7%', fontSize: 20 }}>View Details</p></b>
-                            </Link>
+                            <Link to="services"><b><p style={{ color: 'Blue', textAlign: 'center', paddingTop: '7%', fontSize: 20 }}>View Details</p></b></Link>
                         </CardContent>
                     </Card>
                 </Grid>

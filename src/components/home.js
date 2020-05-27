@@ -35,50 +35,50 @@ class Home extends React.Component {
                             <Grid container>
                                 <Grid item xs={6} sm={6} md={3} className="footercont">
                                     <div >
-                                        <h3 className="footer_heading">
+                                        <h3 className="footer_heading" style={{ textAlign: 'left' }}>
                                             Navigation
                                             </h3>
                                         <ul className="footlist">
-                                            <Link to="/" ><li> Home</li></Link>
-                                            <li> <Link to="/about_us" > About Us</Link></li>
-                                            <li> <Link to="/services" >Services</Link></li>
-                                            <li> <Link to="/events" >News & Events</Link></li>
-                                            <li><Link to="/contact">Contact Us</Link></li>
+                                            <Link to="/" ><li style={{textAlign:'left'}}> Home</li></Link>
+                                            <li style={{ textAlign: 'left' }}> <Link to="/about_us" > About Us</Link></li>
+                                            <li style={{ textAlign: 'left' }}> <Link to="/services" >Services</Link></li>
+                                            <li style={{ textAlign: 'left' }}> <Link to="/events" >News & Events</Link></li>
+                                            <li style={{ textAlign: 'left' }}><Link to="/contact">Contact Us</Link></li>
 
                                         </ul>
                                     </div>
                                 </Grid>
                                 <Grid item xs={6} sm={6} md={3} className="footercont">
                                     <div>
-                                        <h3 className="footer_heading">
+                                        <h3 className="footer_heading" style={{ textAlign: 'left' }}>
                                             Services
                       </h3>
                                         <ul className="footlist">
-                                            <Link to="services"><li >Vehicle Cleaning Checkup</li></Link>
-                                            <Link to="services"><li >FLEET Maintenance Checklist</li></Link>
-                                            <Link to="services"><li >Preventive Maintaince</li></Link>
+                                            <Link to="/services"><li style={{textAlign:'left'}}>Vehicle Cleaning Checkup</li></Link>
+                                            <Link to="/services"><li style={{ textAlign: 'left' }}>FLEET Maintenance Checklist</li></Link>
+                                            <Link to="/services"><li style={{ textAlign: 'left' }}>Preventive Maintaince</li></Link>
                                         </ul>
                                     </div>
                                 </Grid>
                                 <Grid item xs={6} sm={6} md={3} className="footercont">
                                     <div >
-                                        <h3 className="footer_heading">
+                                        <h3 className="footer_heading" style={{ textAlign: 'left' }}>
                                             Office Address
                                             </h3>
                                         <ul className="footlist">
-                                            <li>{login.details.address1}</li>
-                                            <li>{login.details.address2}</li>
-                                            <li>{login.details.address3}</li>
+                                            <li style={{ textAlign: 'left' }}>{login.details.address1}</li>
+                                            <li style={{ textAlign: 'left' }}>{login.details.address2}</li>
+                                            <li style={{ textAlign: 'left' }}>{login.details.address3}</li>
                                         </ul>
                                     </div>
                                 </Grid>
                                 <Grid xs={6} sm={6} md={3} className="footercont">
                                     <div >
-                                        <h3 className="footer_heading">
+                                        <h3 className="footer_heading" style={{ textAlign: 'left' }}>
                                             Brand Patner
                                             </h3>
                                         <ul className="footlist">
-                                            <li>Skyy Rider Institutions</li>
+                                            <li style={{ textAlign: 'left' }}>Skyy Rider Institutions</li>
                                         </ul>
                                     </div>
                                 </Grid>

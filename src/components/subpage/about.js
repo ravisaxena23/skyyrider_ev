@@ -41,7 +41,7 @@ const card4 = {
     borderRadius: "20px",
     backgroundColor: "#ffffff",
     marginTop: 50,
-    height: 250
+    height: 250,
 };
 class About extends Component {
     render() {
@@ -125,13 +125,13 @@ class About extends Component {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12} md={5}>
+                <Grid item xs={12} md={5} style={{marginRight:30}}>
                     <Cards style={card4}>
                         <CardHeader color="warning" stats icon>
                             <CardIcon color="rose">
                                 <h3>
                                     VISION
-                                    </h3>
+                                </h3>
                             </CardIcon>
                         </CardHeader>
                         <Typography style={{ paddingLeft: 35, paddingTop: 35 }}>
@@ -143,14 +143,14 @@ class About extends Component {
                         </CardContent>
                     </Cards>
                 </Grid>
-                <Grid item md={1} />
+                {/* <Grid item md={1} /> */}
                 <Grid item xs={12} md={5}>
                     <Cards style={card4}>
                         <CardHeader color="warning" stats icon>
                             <CardIcon color="rose">
                                 <h3>
                                     MISSION
-                                    </h3>
+                                </h3>
                             </CardIcon>
                         </CardHeader>
                         <Typography style={{ paddingLeft: 35, paddingTop: 35 }}>
