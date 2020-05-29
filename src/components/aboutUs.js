@@ -32,6 +32,7 @@ class AboutUs extends React.Component {
         return (
             <Grid>
                 <Header />
+                <br /><br /><br />
                 <Slider />
                 <Grid container justify="center" style={{ backgroundColor: '#E6EDF4' }}>
                     <Grid item xs={12} md={4}>
@@ -139,7 +140,7 @@ class AboutUs extends React.Component {
 
                             <ul className="social_links">
                                 <li className="footli">
-                                    <a href="https://www.facebook.com/onelife6"> <Avatar alt="Remy Sharp" src={"https://firebasestorage.googleapis.com/v0/b/panda-machine-care.appspot.com/o/images%2Ffacebook.png?alt=media&token=4db1c075-a8bd-4260-a2d4-e006baeaffba"} /></a>
+                                    <a href="https://www.facebook.com/pandamachinecare"> <Avatar alt="Remy Sharp" src={"https://firebasestorage.googleapis.com/v0/b/panda-machine-care.appspot.com/o/images%2Ffacebook.png?alt=media&token=4db1c075-a8bd-4260-a2d4-e006baeaffba"} /></a>
                                 </li>
                                 <li className="footli">
                                     <a href="https://twitter.com/OneLife_global"><Avatar alt="Remy Sharp" src={"https://firebasestorage.googleapis.com/v0/b/panda-machine-care.appspot.com/o/images%2Ftwitter.png?alt=media&token=2222a815-3609-4bbe-88b9-22e821dc833c"} /></a>

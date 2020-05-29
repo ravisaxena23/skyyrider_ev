@@ -17,17 +17,19 @@ import {
 const card = {
     borderRadius: "10px",
     // justify: "center",
-    marginTop: 50,
-    marginBottom: 50
+    marginTop: '2%',
+    marginBottom: '2%'
 };
 const card1 = {
     borderRadius: "20px",
-    height: "500px",
+    // height: "100%",
     // backgroundColor: "#f8f0ff",
 
     marginTop: 0,
-    marginLeft: 20,
-    marginRight: 20,
+    marginLeft: 2,
+    // marginRight: 2,
+    height: '95%',
+    width: '95%'
 
 };
 const card3 = {
@@ -41,13 +43,13 @@ const card4 = {
     borderRadius: "20px",
     backgroundColor: "#ffffff",
     marginTop: 50,
-    height: 250,
+    // height: 250
 };
 class About extends Component {
     render() {
         return (
             <Grid container justify="center" className="homeback">
-                <Grid item xs={12} md={10}>
+                <Grid item xs={11}>
                     <Card style={card}>
                         <CardContent style={{ height: '100%' }}>
                             <Grid container justify='center'>
@@ -55,23 +57,23 @@ class About extends Component {
                                     <center> <h2> About us</h2></center>
                                 </Grid>
                                 <Grid item xs={12}>
-                                    <p style={{ fontSize: 20 }}>
+                                    <p style={{ fontSize: 15 }}>
                                         PANDA MACHINE CARE (Formerly named as Panda Auto maintenance) was established in the month of SEPTEMBER 2019. The company is firmly into maintenance, service, and door step vehicle cleaning and with innovative fuel saving method to the various fields of construction and real estate. PMC has been leading maintenance service company in the field of construction and helping many company to grow there business. PMC has been setting up new milestones in quality maintenance service and changing many companies into hassle free working project environment. Best technician and supervisor who have from skill India very good industrial experience and achievements in their respective fields are PMC’s major strength.
                                     </p>
                                 </Grid>
                                 <Grid item xs={12}>
-                                    <Grid container>
-                                        <Grid item xs={12} md={4}>
+                                    <Grid container justify='center'>
+                                        <Grid item xs={11} md={4}>
                                             <Card className="cardteam" style={card1}>
                                                 <center>
                                                     <CardMedia>
                                                         <Avatar src={"https://firebasestorage.googleapis.com/v0/b/panda-machine-care.appspot.com/o/images%2Fprofile.png?alt=media&token=dce9cf28-85b6-4946-86b5-3eff1471fde1"} style={{ width: "40%", height: "40%", marginTop: 20 }} />
                                                     </CardMedia>
                                                     <Typography>
-                                                        <h2>DHIREN PANDA</h2>
+                                                        <h2 style={{ fontSize: 'medium' }}>DHIREN PANDA</h2>
                                                         {/* <b> */}
                                                         <i><h3 className="position">DIRECTOR</h3></i>
-                                                        <p style={{ color: 'yellow', padding: 15 }}>
+                                                        <p className="description">
                                                             Mr. Dhiren panda is Skilled in vehicle maintenance supervision with 8+years experience. Have worked in project planning, management, and ensuring work is in compliance with all relevant to state codes.
                                                             </p>
                                                         {/* </b> */}
@@ -79,19 +81,19 @@ class About extends Component {
                                                 </center>
                                             </Card>
                                         </Grid>
-                                        <Grid item xs={12} md={4}>
+                                        <Grid item xs={11} md={4} justify='center'>
                                             <Card className="cardteam" style={card1}>
                                                 <center>
                                                     <CardMedia>
                                                         <Avatar src={"https://firebasestorage.googleapis.com/v0/b/panda-machine-care.appspot.com/o/images%2Fprofile.png?alt=media&token=dce9cf28-85b6-4946-86b5-3eff1471fde1"} style={{ width: "40%", height: "40%", marginTop: 20 }} />
                                                     </CardMedia>
                                                     <Typography>
-                                                        <h2>PRATAP PANDA </h2>
+                                                        <h2 style={{ fontSize: 'medium' }}>PRATAP PANDA </h2>
                                                         {/* <b> */}
                                                         <i>
                                                             <h3 className="position">CEO</h3>
                                                         </i>
-                                                        <p style={{ color: 'yellow', padding: 15 }}>
+                                                        <p className="description">
                                                             Mr.pratap panda is a young, talented professional and brings with him fresh innovation ideas. PMC is his brain child. Worked skyy Rider Institution after completing his B.tech in mechanical engineering from GIET Bhubaneswar in year 2019. He worked as a Divisional co-ordinator for recycling Techniques in the automotive sector.
                                                             </p>
                                                         {/* </b> */}
@@ -99,21 +101,23 @@ class About extends Component {
                                                 </center>
                                             </Card>
                                         </Grid>
-                                        <Grid item xs={12} md={4}>
+                                        <Grid item xs={11} md={4} justify='center'>
                                             <Card className="cardteam" style={card1}>
                                                 <center>
                                                     <CardMedia>
                                                         <Avatar src={"https://firebasestorage.googleapis.com/v0/b/panda-machine-care.appspot.com/o/images%2Fprofile.png?alt=media&token=dce9cf28-85b6-4946-86b5-3eff1471fde1"} style={{ width: "40%", height: "40%", marginTop: 20 }} />
                                                     </CardMedia>
                                                     <Typography>
-                                                        <h2>DIPTI RANJAN PANDA</h2>
+                                                        <h2 style={{ fontSize: 'medium' }}>DIPTI RANJAN PANDA</h2>
                                                         {/* <b> */}
                                                         <i>
                                                             <h3 className="position">SENIOR MANAGER</h3>
                                                         </i>
-                                                        <p style={{ color: 'yellow', padding: 15 }}>
-                                                            Mr. Dipti ranjan panda a dedicated personable manager that understand the principles of teamwork, trust and accountability. Ability to creat an environment that fosters a sense of personal integrity .
+                                                        <div>
+                                                            <p className="description">
+                                                                Mr. Dipti ranjan panda a dedicated personable manager that understand the principles of teamwork, trust and accountability. Ability to creat an environment that fosters a sense of personal integrity .
                                                             </p>
+                                                        </div>
                                                         {/* </b> */}
                                                     </Typography>
                                                 </center>
@@ -125,16 +129,16 @@ class About extends Component {
                         </CardContent>
                     </Card>
                 </Grid>
-                <Grid item xs={12} md={5} style={{marginRight:30}}>
+                <Grid item xs={5} style={{ marginRight: 10,marginLeft:-10 }}>
                     <Cards style={card4}>
                         <CardHeader color="warning" stats icon>
                             <CardIcon color="rose">
-                                <h3>
+                                <h3 style={{ fontSize: 'small' }}>
                                     VISION
-                                </h3>
+                                    </h3>
                             </CardIcon>
                         </CardHeader>
-                        <Typography style={{ paddingLeft: 35, paddingTop: 35 }}>
+                        <Typography style={{ fontSize: 'small', paddingLeft: 3 }}>
                             • To be a trendsetter in the heavy & commercial services industry.<br />
                                 • To provide advanced repairs & maintenance cost effectively.<br />
                                 • To make our customers feel comfortable and pleased with their service experience.<br />
@@ -143,17 +147,17 @@ class About extends Component {
                         </CardContent>
                     </Cards>
                 </Grid>
-                {/* <Grid item md={1} /> */}
-                <Grid item xs={12} md={5}>
+                {/* <Grid item xs={1} /> */}
+                <Grid item xs={5}>
                     <Cards style={card4}>
                         <CardHeader color="warning" stats icon>
                             <CardIcon color="rose">
-                                <h3>
+                                <h3 style={{ fontSize: 'small' }}>
                                     MISSION
-                                </h3>
+                                    </h3>
                             </CardIcon>
                         </CardHeader>
-                        <Typography style={{ paddingLeft: 35, paddingTop: 35 }}>
+                        <Typography style={{ fontSize: 'small', paddingLeft: 3 }}>
                             • To create integrated service centres across India.<br />
                                 • To establish and create industry standards in terms of infrastructure, client service & vehicle maintenance services in an efficient and cost-effective manner.<br />
                         </Typography>
@@ -161,18 +165,18 @@ class About extends Component {
                         </CardContent>
                     </Cards>
                 </Grid>
-                <Grid item xs={12} md={8}>
+                <Grid item xs={8}>
                     <Card style={card3}>
                         <CardContent style={{ height: '100%' }}>
                             <Grid container justify='center'>
                                 <Grid item xs={12}>
                                     <center>
-                                        <h2 style={{ color: 'white' }}>WHY CHOOSE US</h2>
+                                        <h2 style={{ color: 'white', fontSize: 'small', }}>WHY CHOOSE US</h2>
                                     </center>
                                     <Divider variant="middle" style={{ backgroundColor: 'white' }} />
                                 </Grid>
                                 <Grid item xs={12} style={{ margin: 20 }}>
-                                    <span style={{ color: '#3873AE', fontSize: 22, }}>
+                                    <span style={{ color: '#3873AE', fontSize: 'small', }}>
                                         <i>
                                             • Best in class skilled Technicians.<br />
                                         • Expert in reducing costing & Increasing Productivity.<br />

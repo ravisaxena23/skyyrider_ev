@@ -22,36 +22,38 @@ import { Link } from "react-router-dom";
 class Header extends Component {
     render() {
         return (
-            <Grid container>
-                <AppBar position="static" color="default" style={{ backgroundColor: 'white' }}>
+            <Grid>
+                <AppBar color="default" style={{ backgroundColor: '#0009' }}>
                     {/* <Hidden only={["xs", "sm"]}> */}
-                        <Toolbar>
-                            <Typography variant="h6" color="primary" style={{ flex: 1 }}>
-                                <img
-                                    className="landing_logo"
+                    <Toolbar>
+                        {/* <Typography variant="h6" color="primary" style={{ flex: 1 }}>
+                                {/* <img
+                                    // className="landing_logo"
+                                    height='10%'
+                                    width='10%'
 
                                     src={"https://firebasestorage.googleapis.com/v0/b/panda-machine-care.appspot.com/o/images%2Ffavicon.png?alt=media&token=04c2ee83-9bd5-4527-b729-75ba93073964"}
 
 
                                     alt="not found"
-                                />
-                            </Typography>
-                            <Link to="/" className="link">
-                                <Button className="button" >HOME</Button>
-                            </Link>
-                            <Link to="/about" className="link">
-                                <Button className="button" >ABOUT US</Button>
-                            </Link>
-                            <Link to="/services" className="link">
-                                <Button className="button" >SERVICES</Button>
-                            </Link>
-                            <Link to="/events" className="link">
-                                <Button className="button" >NEWS&EVENTS</Button>
-                            </Link>
-                            <Link to="/contact" className="link">
-                                <Button className="button" >CONTACT US</Button>
-                            </Link>
-                        </Toolbar>
+                                /> */}
+                        {/* </Typography> */}
+                        <Link to="/" className="link">
+                            <Button className="button" ><p className="headname">HOME</p></Button>
+                        </Link>
+                        <Link to="/about" className="link">
+                            <Button className="button" ><p className="headname">ABOUT US</p></Button>
+                        </Link>
+                        <Link to="/services" className="link">
+                            <Button className="button" ><p className="headname">SERVICES</p></Button>
+                        </Link>
+                        <Link to="/events" className="link">
+                            <Button className="button" ><p className="headname">NEWS&EVENTS</p></Button>
+                        </Link>
+                        <Link to="/contact" className="link">
+                            <Button className="button" ><p className="headname">CONTACT US</p></Button>
+                        </Link>
+                    </Toolbar>
 
                     {/* </Hidden> */}
                     {/* <Hidden only={["xl", "md", "lg"]}>

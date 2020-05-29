@@ -93,7 +93,7 @@
   color: whitesmoke !important;
 }
 .button {
-  color: black !important;
+  color: rgb(235, 215, 215) !important;
 }
 .carousel {
   width: 100% !important;
@@ -123,7 +123,7 @@
 .cardteam {
   margin-bottom: 6px;
   margin-top: 6px;
-  background-color: #082F46 !important;
+  background-color: #082f46 !important;
   color: wheat !important;
   // background-image: url("https://firebasestorage.googleapis.com/v0/b/panda-machine-care.appspot.com/o/images%2Fbgteam.jpg?alt=media&token=4f85b02d-4c2a-4be5-9e17-531ddc258e8a");
 }
@@ -269,6 +269,16 @@
 .contact-info .media-body p {
   color: #8a8a8a;
 }
-.position{
+.position {
   font-weight: lighter;
+  font-size: small;
+}
+.description {
+  color: yellow;
+  font-size:xx-small;
+  text-align: left;
+  padding: 6px;
+}
+.headname{
+  font-size: x-small;
 }

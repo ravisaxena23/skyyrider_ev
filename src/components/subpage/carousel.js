@@ -11,7 +11,7 @@ const properties = {
     transitionDuration: 500,
     infinite: true,
     indicators: true,
-    arrows: true
+    arrows: true,
 }
 class Slider extends React.Component {
     render() {
