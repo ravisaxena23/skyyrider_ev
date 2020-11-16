@@ -5,7 +5,7 @@ import Footer from './footer';
 class home extends Component {
     // state = {  }
     render() { 
-        return (  <div className="login_background">
+        return (  <div>
             <Navbar />
             home
             <Footer />
