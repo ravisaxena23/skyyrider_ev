@@ -3,5 +3,5 @@ import { combineReducers } from "redux";
 import login from "./login-reducer";
 import loader from "./loader/loader_reducer";
 import snackbar from "./snackbar/snackbar_reducer";
-
-export default combineReducers({ login, loader, snackbar });
+import home from "./homeReducer"
+export default combineReducers({ login, loader, snackbar, home });
