@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import Navbar from "./navbar";
-import Footer from "./footer";
 
 class home extends Component {
   // state = {  }
@@ -8,7 +6,6 @@ class home extends Component {
     const { set_num1, home } = this.props;
     return (
       <div>
-        <Navbar />
         <input
           type="text"
           name="num1"
@@ -19,7 +16,6 @@ class home extends Component {
         <input type="text" />
         {home.num1}
         <button>Submit</button>
-        <Footer />
       </div>
     );
   }
