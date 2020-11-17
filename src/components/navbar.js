@@ -42,7 +42,7 @@ function Navbar(props) {
               </Typography>
             </Grid>
 
-            <Grid item sm={2} md={3}>
+            <Grid item sm={2} md={3} class="nav-pad">
               <Typography variant="body1" class="sub-head">
                 <PhoneIcon style={{ fontSize: "2vw" }} /> +91 9999999999
               </Typography>
