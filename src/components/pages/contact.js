@@ -115,13 +115,13 @@ class contact extends Component {
                   ></img>
                 </Grid>
                 <Grid item xs={6} sm={4}>
-                  <Typography variant="body1">
+                  <Typography variant="body1"  className="common-text">
                     Mobile: (520) 577 2710
                   </Typography>
-                  <Typography variant="body1">
+                  <Typography variant="body1"  className="common-text">
                     Assisatnce: (520) 577 27250
                   </Typography>
-                  <Typography variant="body1">Weekdays: (520) 577</Typography>
+                  <Typography variant="body1"  className="common-text">Weekdays: (520) 577</Typography>
                 </Grid>
               </Grid>
             </Grid>
@@ -139,7 +139,7 @@ class contact extends Component {
                   ></img>
                 </Grid>
                 <Grid item xs={6} sm={8}>
-                  <Typography variant="body1">
+                  <Typography variant="body1"  className="common-text">
                     Nayapali, Bhubaneswar, Odisha.
                   </Typography>
                 </Grid>
@@ -159,7 +159,7 @@ class contact extends Component {
                   ></img>
                 </Grid>
                 <Grid item xs={6} sm={8}>
-                  <Typography variant="body1">
+                  <Typography variant="body1"  className="common-text">
                     services consequatluctus at justo auctor
                   </Typography>
                 </Grid>

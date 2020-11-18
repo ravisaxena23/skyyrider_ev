@@ -30,10 +30,10 @@ const Products = ({ products, loading }) => {
                 ></img>
               </CardMedia>
               <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
+                <Typography gutterBottom variant="h5" component="h2"  className="common-text">
                   {product.title}
                 </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
+                <Typography variant="body2" color="textSecondary" component="p"  className="common-text">
                   {product.body}
                 </Typography>
               </CardContent>
