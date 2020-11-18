@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import Home from "../components/home";
+import Home from "../components/pages/home";
 
 import {
     set_num1,

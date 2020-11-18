@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../styles/images/logo.png";
+import logo from "../../styles/images/logo.png";
 
 //material ui component
 import ResponsiveDrawer from "./ResponsiveDrawer";

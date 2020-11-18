@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import Counter from "../components/Counter";
 import { connect } from "react-redux";
-import Contact from "../components/contact";
+import Contact from "../components/pages/contact";
 
 import {
     view_details,

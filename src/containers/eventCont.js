@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import Counter from "../components/Counter";
 import { connect } from "react-redux";
-import Event from "../components/product";
+import Event from "../components/pages/product";
 
 import { view_details, view_all_events } from "../actions/loginActions";
 

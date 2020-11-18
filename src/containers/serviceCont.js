@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import Counter from "../components/Counter";
 import { connect } from "react-redux";
-import Service from "../components/services";
+import Service from "../components/pages/services";
 
 import {
     view_details,

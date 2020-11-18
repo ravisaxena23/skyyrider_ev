@@ -1,7 +1,7 @@
 import React, { Component, useEffect, useState } from "react";
 import axios from "axios";
-import Posts from "./posts";
-import Pagination from "./pagination";
+import Posts from "../layouts/posts";
+import Pagination from "../layouts/pagination";
 
 const Product = () => {
   const [posts, setPosts] = useState([]);

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../styles/images/logo.png";
 
 //material ui component
 import { AppBar, Toolbar, Button, Hidden, Divider } from "@material-ui/core";
