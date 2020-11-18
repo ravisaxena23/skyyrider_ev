@@ -352,9 +352,39 @@ body {
 
 .main-body{
   margin-top: 180px;
-  margin-bottom: 180px;
+  margin-bottom: 20px;
 }
 
 .padding-10{
   padding: 10px;
+}
+
+.pagination-1{
+  display: flex !important;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+  padding: 30px;
+}
+
+.page-box{
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #fafafa;
+  background-color: #0080ff;
+  border: 2px solid #fafafa;
+}
+
+.page-heading{
+  background-color: #C0C0C0;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.heading{
+  font-weight: 900;
+  text-align: center;
 }

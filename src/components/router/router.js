@@ -8,7 +8,7 @@ import Services from "../../containers/serviceCont";
 import { withStyles } from "@material-ui/core/styles";
 import Navbar from "../navbar";
 import Footer from "../footer";
-
+import Container from "@material-ui/core/Container";
 // import Login from "../../containers/loginCon";
 // import Admin from "../../containers/pages/adminCont";
 // import Controller from "../../containers/router/controller_cont";
@@ -30,15 +30,17 @@ class Routes extends Component {
     body = login.isHome ? (
       <div>
         <Navbar />
-        <div className="main-body">
-        {/*<Route exact path="/" component={Controller} /> */}
-        <Route exact path="/" component={Home} />
-        <Route exact path="/services" component={Services} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/product" component={Event} />
-        <Route exact path="/contact" component={Contact} />
-        {/* <Route exact path="/login" component={Login} /> */}
-        </div>
+        <Container maxWidth="xl">
+          <div className="main-body">
+            {/*<Route exact path="/" component={Controller} /> */}
+            <Route exact path="/" component={Home} />
+            <Route exact path="/services" component={Services} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/product" component={Event} />
+            <Route exact path="/contact" component={Contact} />
+            {/* <Route exact path="/login" component={Login} /> */}
+          </div>
+        </Container>
         <Footer />
       </div>
     ) : (

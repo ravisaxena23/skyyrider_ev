@@ -19,7 +19,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 function Navbar(props) {
   return (
     <div style={{ color: "#fff" }}>
-      <AppBar position="fixed" style={{ top: "auto", bottom: 0 }}>
+      <AppBar position="static" style={{ top: "auto", bottom: 0 }}>
         <Toolbar className="footer-body">
           <Grid container spacing={1} className="padding-10">
             <Grid item sm={12} md={12}>

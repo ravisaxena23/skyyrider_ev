@@ -30,7 +30,7 @@ function Navbar(props) {
 
             <Grid item sm={2} md={3}>
               <Typography variant="body1" class="sub-head">
-                <AccessTimeIcon style={{ fontSize: "2vw" }} />
+                <AccessTimeIcon style={{ fontSize: "2vw", color:"#e5081f" }} />
                 12:00 22:00
               </Typography>
             </Grid>
@@ -38,13 +38,13 @@ function Navbar(props) {
             <Grid item sm={2} md={5}>
               <Typography variant="body1" class="sub-head">
                 {" "}
-                <EmailIcon style={{ fontSize: "2vw" }} /> skyyriderev@gmail.com
+                <EmailIcon style={{ fontSize: "2vw", color:"#e5081f" }} /> skyyriderev@gmail.com
               </Typography>
             </Grid>
 
             <Grid item sm={2} md={3} class="nav-pad">
               <Typography variant="body1" class="sub-head">
-                <PhoneIcon style={{ fontSize: "2vw" }} /> +91 9999999999
+                <PhoneIcon style={{ fontSize: "2vw", color:"#e5081f" }} /> +91 9999999999
               </Typography>
             </Grid>
           </Grid>
