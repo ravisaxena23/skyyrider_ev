@@ -19,6 +19,7 @@
     "react-ga": "^2.3.5",
     "react-image-webp": "^0.7.0",
     "react-linkify": "^1.0.0-alpha",
+    "react-material-ui-carousel": "^2.1.1",
     "react-moment": "^0.9.7",
     "react-pose": "^4.0.10",
     "react-redux": "^5.1.2",
