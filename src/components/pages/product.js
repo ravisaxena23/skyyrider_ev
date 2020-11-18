@@ -1,10 +1,10 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Posts from "../layouts/posts";
+import Products from "../layouts/productslayout";
 import Pagination from "../layouts/pagination";
 
 const Product = () => {
-  const [posts, setPosts] = useState([]);
+  const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(12);
@@ -13,7 +13,7 @@ const Product = () => {
     const fetchPosts = async () => {
       setLoading(true);
       const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
-      setPosts(res.data);
+      setProducts(res.data);
       setLoading(false);
     };
 
@@ -23,7 +23,7 @@ const Product = () => {
   // Get current posts
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
+  const currentPosts = products.slice(indexOfFirstPost, indexOfLastPost);
 
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
@@ -33,10 +33,10 @@ const Product = () => {
       <div className="page-heading">
         <h1>PRODUCTS</h1>
       </div>
-      <Posts posts={currentPosts} loading={loading} />
+      <Products products={currentPosts} loading={loading} />
       <Pagination
         postsPerPage={postsPerPage}
-        totalPosts={posts.length}
+        totalPosts={products.length}
         paginate={paginate}
       />
     </div>

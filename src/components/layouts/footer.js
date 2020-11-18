@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 //material ui component
-import { AppBar, Toolbar, Button, Hidden, Divider } from "@material-ui/core";
+import { AppBar, Toolbar, Button, Divider } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import PhoneIcon from "@material-ui/icons/Phone";

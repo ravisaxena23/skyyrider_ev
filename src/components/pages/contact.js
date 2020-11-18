@@ -54,7 +54,7 @@ class contact extends Component {
   };
   onSubmit = (e) => {
     e.preventDefault();
-    if (this.validate() == true) {
+    if (this.validate() === true) {
       console.log(this.state.fullname);
       //   const db = firebase.firestore(); uncomment when add firebase
       const form = {
@@ -90,6 +90,7 @@ class contact extends Component {
             allowfullscreen=""
             aria-hidden="false"
             tabindex="0"
+            title="skyydriveev location"
           ></iframe>
         </div>
 
@@ -110,6 +111,7 @@ class contact extends Component {
                     src="https://w7.pngwing.com/pngs/716/54/png-transparent-computer-icons-telephone-call-iphone-symbol-iphone-electronics-telephone-call-logo.png"
                     width="100"
                     height="50"
+                     alt="icon"
                   ></img>
                 </Grid>
                 <Grid item xs={6} sm={4}>
@@ -133,6 +135,7 @@ class contact extends Component {
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnCODf5XdCF1sqEgEMPWiQqF-_SNBniks_Pw&usqp=CAU"
                     width="100"
                     height="50"
+                    alt="icon"
                   ></img>
                 </Grid>
                 <Grid item xs={6} sm={8}>
@@ -152,6 +155,7 @@ class contact extends Component {
                     src="https://www.pngkey.com/png/full/114-1146133_delivery-png-photos-light-commercial-vehicles-icon.png"
                     width="100"
                     height="50"
+                    alt="icon"
                   ></img>
                 </Grid>
                 <Grid item xs={6} sm={8}>

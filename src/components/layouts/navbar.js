@@ -24,7 +24,7 @@ function Navbar(props) {
               </Hidden>
               <Hidden smDown>
                 {" "}
-                <img src={logo} height={80} width={80} />
+                <img src={logo} height={80} width={80}  alt="logo" />
               </Hidden>
             </Grid>
 
