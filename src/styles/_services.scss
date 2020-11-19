@@ -1,0 +1,57 @@
+.name-tag{
+    border: 2px solid !important;
+    max-height: fit-content;
+    padding: 0 !important;
+}
+
+.name-tag-text{
+    font-weight: 200 !important;
+    font-size: 18px !important;
+    padding-left: 5px;
+}
+
+.date-tag-text{
+    font-weight: 300 !important;
+    font-size: 20px !important;
+    padding-left: 5px;
+}
+
+.date-body{
+    background-color: #34c907 !important;
+}
+
+.article-head{
+    line-height: 1.6em !important;
+    word-spacing: 0.3em !important;
+    letter-spacing: 02px !important;
+    text-decoration: underline;
+    color: #0080ff
+}
+
+.read-btn{
+    margin: 12px !important;
+    padding: 10px !important;
+    background-color: #19539F !important;
+    color: #fafafa !important;
+    border-radius: 0 !important;
+    font-size: 18px !important;
+}
+
+.service-post-text{
+    padding: 10px;
+    font-weight: 900 !important;
+    font-size: 21px !important;
+}
+
+.tag-hr{
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    height: 1px;
+}
+
+.service-a{
+    text-decoration: none;
+    color: #000000;
+}

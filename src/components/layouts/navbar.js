@@ -141,7 +141,7 @@ function Navbar(props) {
                   to={"/services"}
                   className="Nav-btn"
                 >
-                  NEWS & EVENTS
+                  NEWS & BLOGS
                 </Button>
               </Grid>
               <Grid item md={2}>

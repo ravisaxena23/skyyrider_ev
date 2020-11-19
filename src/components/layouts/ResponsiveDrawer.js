@@ -84,13 +84,13 @@ function ResponsiveDrawer(props) {
           onClick={handleDrawerToggle}
         >
           <ListItemIcon></ListItemIcon>
-          <ListItemText primary="NEWS & EVENTS" />
+          <ListItemText primary="NEWS & BLOGS" />
         </ListItem>
 
         <ListItem
           button
           component={Link}
-          to={"/contacts"}
+          to={"/contact"}
           onClick={handleDrawerToggle}
         >
           <ListItemIcon></ListItemIcon>
